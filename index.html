@@ -1,0 +1,146 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geprek Mantap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>GEPREK MANTAP</h1>
+        <p>Pedasnya Bikin Ketagihan!</p>
+    </header>
+
+    <!-- NAVIGASI -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Daftar Menu</a>
+        <a href="#pesanan">Pemesanan</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- BERANDA -->
+    <section id="beranda">
+        <h2>Selamat Datang di Geprek Mantap</h2>
+        <p>
+            Geprek Mantap menyediakan berbagai pilihan ayam geprek
+            dengan harga terjangkau dan cita rasa yang lezat.
+        </p>
+    </section>
+
+    <!-- DAFTAR MENU -->
+    <section id="menu">
+        <h2>Daftar Menu dan Harga</h2>
+
+        <table>
+            <caption>Daftar Harga Geprek Mantap</caption>
+
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Menu</th>
+                    <th>Paket</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ayam Geprek Original</td>
+                    <td>Reguler</td>
+                    <td>Rp15.000</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Ayam Geprek Keju</td>
+                    <td>Reguler</td>
+                    <td>Rp18.000</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Ayam Geprek Mozarella</td>
+                    <td>Spesial</td>
+                    <td>Rp22.000</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Ayam Geprek Sambal Matah</td>
+                    <td>Reguler</td>
+                    <td>Rp17.000</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">Harga dapat berubah sewaktu-waktu.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- FORM PEMESANAN -->
+    <section id="pesanan">
+        <h2>Formulir Pemesanan</h2>
+
+        <form action="#" method="GET">
+
+            <label for="nama">Nama Pelanggan:</label>
+            <input type="text" id="nama" name="nama"
+                   placeholder="Masukkan nama Anda" required>
+
+            <label for="menu-pesanan">Pilih Menu:</label>
+            <select id="menu-pesanan" name="menu" required>
+                <option value="">-- Pilih Menu --</option>
+                <option value="Original">Ayam Geprek Original</option>
+                <option value="Keju">Ayam Geprek Keju</option>
+                <option value="Mozarella">Ayam Geprek Mozarella</option>
+                <option value="Matah">Ayam Geprek Sambal Matah</option>
+            </select>
+
+            <label for="pedas">Level Pedas:</label>
+            <select id="pedas" name="level_pedas" required>
+                <option value="">-- Pilih Level --</option>
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+                <option value="5">Level 5</option>
+            </select>
+
+            <label for="jumlah">Jumlah Pesanan:</label>
+            <input type="number" id="jumlah" name="jumlah"
+                   min="1" required>
+
+            <label for="alamat">Alamat Pengiriman:</label>
+            <textarea id="alamat" name="alamat"
+                      placeholder="Masukkan alamat lengkap"
+                      required></textarea>
+
+            <button type="submit">Kirim Pesanan</button>
+
+        </form>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Geprek Mantap</p>
+        <p>Jam Operasional: 10.00 - 22.00 WIB</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Geprek Mantap. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
+```
