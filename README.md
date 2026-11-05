@@ -25,9 +25,9 @@ Membuat website menggunakan HTML5 dan CSS dengan menerapkan tabel, formulir, val
 
 ## Anggota Kelompok
 
-1. Nama Anggota 1
-2. Nama Anggota 2
-3. Nama Anggota 3
+1. Thiru Shan: 250121060
+2. Phietter Marcelino Sali: 250121095
+3. Samuel Randi Saputra M: 250121068
 
 ## Cara Menjalankan Website
 
